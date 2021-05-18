@@ -21,3 +21,78 @@ stories:
   steps:
   - intent: disease_description_covid
   - action: utter_disease_description_covid
+
+- story: pre_condition_organs
+  steps:
+  - intent: pre_condition_organs
+  - action: utter_pre_condition_organs
+
+- story: effect_on_countries
+  steps:
+  - intent: country_asia
+  - action: utter_country_asia
+  - intent: country_western
+  - action: utter_country_western
+
+- story: restriction
+  steps:
+  - intent: restriction
+  - action: utter_restriction
+
+- story: symptoms
+  steps:
+  - intent: symptoms
+  - action: utter_symptoms
+
+
+- story: protection
+  steps:
+  - intent: protection
+  - action: utter_protection
+
+
+- story: Vaccine
+  steps:
+  - intent: Vaccine
+  - action: utter_Vaccine
+
+
+- story: spread
+  steps:
+  - intent: spread
+  - action: utter_spread
+
+- story: treatement
+  steps:
+  - intent: treatement
+  - action: utter_treatement
+  - intent: test
+  - action: utter_test
+
+
+- story: test
+  steps:
+  - intent: test
+  - action: utter_test
+
+
+- story: effect_child_pw
+  steps:
+  - intent: child_pw
+  - action: utter_child_pw
+
+- story: effect_animal_species
+  steps:
+  - intent: animal_species
+  - action: utter_animal_species
+
+
+- story: effect_adults
+  steps:
+  - intent: adults
+  - action: utter_adults
+
+
+
+
+
