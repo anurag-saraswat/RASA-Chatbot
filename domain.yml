@@ -1,0 +1,90 @@
+version: "2.0"
+
+intents:
+  - time_period
+  - disease_description_covid
+  - disease_description_SARS
+  - country_western
+  - country_asia
+  - restriction
+  - symptoms
+  - spread
+  - protection
+  - affected
+  - treatement
+  - test
+  - pre_condition_organs
+  - homo_sapeins_important
+  - homo_sapeins
+  - animal_species
+  - Vaccine
+
+responses:
+  utter_disease_description_covid:
+  - text: "Severe Acute Respiratory Syndrome Coronavirus-2 (SARS-CoV-2) is the name given to the 2019 novel coronavirus.
+           COVID-19 is the name given to the disease associated with the virus. SARS-CoV-2 is a new strain of coronavirus 
+           that has not been previously identified in humans."
+
+  utter_disease_description_SARS:
+  - text: "corona viruses are a large family of viruses that are known to cause illness ranging from the common cold to more 
+           severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS)."
+
+  utter_time_period:
+  - text: "The “incubation period” means the period from the time you get exposed to virus and till the virus shows its symptomps. 
+           The incubation period for COVID-19 range from 1-14 days"
+
+  utter_symptoms:
+  - text: "The common signs include respiratory symptoms, fever, cough, shortness of breath, and breathing difficulties.
+           In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death."
+
+  utter_pre_condition_organs:
+  - text: "Because of the having problems with the critical organs in the body. You may have severe complications 
+           once got infected with COVID-19."
+
+  utter_test:
+  - text: "RT-PCR tests are done around the country. "
+
+  utter_treatement:
+  - text: "Doctors are providing medicines like remdesiver, and if the sp2 level of oxygen drops below 70
+           they are taking into ICU and putting on oxygen and even then if the situation worsesns they are 
+           put on a ventilator."
+
+  utter_affected:
+  - text: "Isolate yourself and put on mask so that the virus doesn't get into the air.
+           Keep your family away from you."
+
+  utter_spread:
+  - text: "Yes, some corona viruses can be transmitted from person to person, usually after close contact with an infected 
+           patient, for example, in a household workplace, or health care centre."
+
+  utter_protection:
+  - text: "Standard recommendations to reduce exposure to and transmission of a range of illnesses include maintaining basic hand 
+           and respiratory hygiene, and safe food practices and avoiding close contact, when possible, 
+           with anyone showing symptoms of respiratory illness such as coughing and sneezing."
+
+  utter_Vaccine:
+  - text: "Taking the vaccine as early as possible is the better way protect ourselves."
+
+  utter_restriction:
+  - text: "There have been restrictions in place like night curfew and also closed of schools and colleges. 
+           Employees should work from home"
+
+  utter_country_western:
+  - text: "The virus has mostly been curbed now(April 2021 onwards) because of vaccination but in the earlier stage around
+           March 2020 - October 2020 was desastrous for yor country"
+
+  utter_country_asia:
+  - text: "The virus has became more dangerous and fastly spreading with new starins and mutations."
+
+  utter_child_pw:
+  - text: "You are less likely to be affected but once got affected it is dangerous"
+
+  utter_adults:
+  - text: "You are more likely to be affected, so following the gudielines issued by your government would be a safest option"
+
+  utter_animal_species:
+  - text: "These are less likely to get affected by covid-19"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

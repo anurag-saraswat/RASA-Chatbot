@@ -1,0 +1,123 @@
+version: "2.0"
+
+nlu:
+- intent: disease_description_covid
+  examples: |
+    - What is SARS-CoV-19?
+    - What is Covid-19?
+    - What is an infection?
+    - information about Covid-19
+    - information about SARS-CoV-19
+
+- intent: disease_description_SARS
+  examples: |
+    - What is SARS?
+    - What is corona virus?
+    - What is Mers?
+    - information about corona virus
+    - information about SARS?
+
+- intent: time_period
+  examples: |
+    - incubation
+
+- intent: country_asia
+  examples: |
+    - India
+    - Asia
+
+- intent: country_western
+  examples: |
+    - EU
+    - Europe
+    - Australia
+    - UK
+    - USA
+    - America
+
+- intent: restriction
+  examples: |
+    - travel
+    - ban
+    - school
+    - office
+    - college
+    - lockdown
+    - flight
+    - train
+    - restriction
+
+- intent: symptoms
+  examples: |
+    - symptoms
+    - fever
+    - cough
+    - commom cold
+
+- intent: protection
+  examples: |
+    - mask
+    - N-95
+    - hand wash
+    - santise
+    - physical distance
+    - prevention
+
+- intent: Vaccine
+  examples: |
+    - Vaccine
+    - Vaccination
+    - remdesiever
+    - astrazenica
+    - covaxin    
+    - covishield
+
+- intent: spread
+  examples: |
+    - nose
+    - mouth
+    - droplets
+    - air
+    - transmission
+    - spread
+
+- intent: affected
+  examples: |
+    - isolation
+    - affected
+
+- intent: treatement
+  examples: |
+    - treatement
+    - oxygen cylinder
+    - ventilator
+
+- intent: test
+  examples: |
+    - testing
+    - results
+
+- intent: adults
+  examples: |
+    - humans
+    - men
+    - women
+
+- intent: child_pw
+  examples: |
+    - children
+    - pregnant_women
+
+- intent: animal_species
+  examples: |
+    - animals
+    - cat
+    - dog
+    - pet
+
+- intent: pre_condition_organs
+  examples: |
+    - lungs
+    - liver
+    - kidney
+    - heart
