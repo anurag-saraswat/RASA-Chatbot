@@ -1,6 +1,7 @@
 version: "2.0"
 
 intents:
+  - child_pw
   - time_period
   - disease_description_covid
   - disease_description_SARS
@@ -18,6 +19,14 @@ intents:
   - homo_sapeins
   - animal_species
   - Vaccine
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - adults
 
 responses:
   utter_disease_description_covid:
@@ -45,7 +54,7 @@ responses:
   - text: "RT-PCR tests are done around the country. "
 
   utter_treatement:
-  - text: "Doctors are providing medicines like remdesiver, and if the sp2 level of oxygen drops below 70
+  - text: "Doctors are providing antibiotic medicines and multi vitamins tablet, and if the sp2 level of oxygen drops below 70
            they are taking into ICU and putting on oxygen and even then if the situation worsesns they are 
            put on a ventilator."
 
@@ -84,6 +93,25 @@ responses:
 
   utter_animal_species:
   - text: "These are less likely to get affected by covid-19"
+
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
 
 session_config:
   session_expiration_time: 60
