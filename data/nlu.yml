@@ -29,6 +29,9 @@ nlu:
   examples: |
     - India
     - Asia
+    - affect
+    - effect
+    - covid
 
 - intent: country_western
   examples: |
@@ -38,6 +41,11 @@ nlu:
     - UK
     - USA
     - America
+    - affect
+    - effect
+    - covid
+    - western
+    - countries 
 
 - intent: restriction
   examples: |
